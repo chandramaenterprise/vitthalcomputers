@@ -13,7 +13,6 @@
 
 .firstsection {
 	width: 100%;
-	overflow: hidden;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -177,8 +176,7 @@
 			text-align: right;
 		}
 	
-	
-               .text-footer {
+		.text-footer {
 			text-align:left;
 			padding: 30px 0;
 			font-family: 'Ubuntu', sans-serif;
@@ -186,9 +184,10 @@
 			justify-content: left;
 			color: white;
 		}
-
-	
-	
+		.vitthal img{
+		height: 60%;
+		width:70%;
+	}
 
 	
    @media screen and (max-width:1140px){
@@ -209,6 +208,7 @@
 				flex-direction: row;
 				transition: all .7s ease-in;
                 size: 100%;
+				width: 100%;
 			}
 			.rightnav{
 				text-align: center;
@@ -232,7 +232,7 @@
 
    @media screen and (max-width:900px){
     .box{
-        width: 100%;
+        width: 45%;
         
     }
     .text-small{
@@ -242,6 +242,40 @@
 
           
    }
+
+   @media screen and (max-width:500px) {
+	.box{
+		width:100%
+	}
+	.body{
+		size: 100%;
+		width:100%;
+
+	}
+	.navbar{
+				flex-direction: row;
+				transition: all .7s ease-in;
+                size: 100%;
+				width: 100%;
+			}
+			.rightnav{
+				text-align: center;
+			}
+
+	.vitthal{
+		size :100%;
+	}
+	.vitthal img{
+		height: 300px;
+		width:300px;
+	}
+	.laptop{
+		width: 100%;
+	}
+	}
+
+	
+   
 
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -278,17 +312,17 @@
 
 
 <div class="vitthal">
-<img src="imglaptop.jpg" width="500" height="500">
+<img calss="vitthal img" src="imglaptop.jpg" width="500" height="500">
 </div>
 
 
-<div class ="brand"><h1 id="dell">______________________<br>______________________<br>_____DELL______</h1></div>
+<div class ="brand"><h1 id="dell">__________________<br>________________<br>_____DELL______</h1></div>
 <div class="laptop">
 <section class="firstsection">
 	
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d1.avif" alt="Girl in a jacket" width=480px height=480px>
+<img calss="vitthal img" src="d1.avif" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="d1"><b>Dell 2in1 Inspiron 7420</b></p></div>
 <div class ="btni"><button type="button" onclick='document.getElementById("d1").innerHTML = "Dell 2in1 Inspiron 7420 <br> Intel i7-1255U<br> 16GB RAM 512GB SSD <br> Win 11+MSO 21<br> NVIDIA MX550 (2GB GDDR6)<br> 14.0 inch  FHD+ WVA Touch 250 nits Display<br> Dell Active Pen <br> Platinum Silver <br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -296,7 +330,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d2.avif" alt="Girl in a jacket" width=480px height=480px>
+<img calss="vitthal img" src="d2.avif" alt="Girl in a jacket"width=100% height=300>
 <div class ="text-small"><p id="d2"><b>Dell Inspiron 15</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("d2").innerHTML = "Dell Inspiron 15<br>15 inch Laptop <br> Windows 11 and MS Office 2021 <br> Intel Core i5-1235U 12 gen<br> 8GB RAM and 512GB SSD <br>FHD WVA AG 120Hz 250 Nits  <br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -304,7 +338,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d3.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img  calss="vitthal img" src="d3.jpg" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="d3"><b>Dell Latitude e 5480</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("d3").innerHTML = "Dell Latitude e 5480<br>Intel Core i7 7 gen<br>8 GB RAM <br>512 GB SSD<br>4 GB Intel UHD 650 Graphics Card<br>14 inch FHD display<br><Backlit keyword<br><New Addapter New Battry<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -312,7 +346,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d4.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img  calss="vitthal img" src="d4.jpg" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="d4"><b>Dell Latitude e7470 Touch Screen</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("d4").innerHTML = "Dell Latitudee 7470 Touch Screen<br>Intel Core i5 6 gen<8 GB DDR4 RAM<br>256 GB SSD<br><FHD display<br>Backlit keyword<br><Fingerprint Sensor<br>New Battry New Addapter<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -320,7 +354,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d5.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="d5.jpg" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="d5"><b>Dell Vostro 3420</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("d5").innerHTML = "Dell Vostro 3420 <br>12th Gen Intel Core i3-1215U<br> 8GB RAM 512GB SSD<br> 14.0  FHD WVA AG 250 nitsDisplay<br> Windows 11 +<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -328,7 +362,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="d6.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="d6.jpg" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="d6"><b>Dell Latitude e7270 12.5 Ultrabook.</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("d6").innerHTML = "Dell Latitude e7270 12.5 Ultrabook<br>intal core i5 6 gen<br>8GB DDR4 RAM<br>256 GB SSD m.dot 2<br>New Battry New Adeptor<br>Very slim<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -337,13 +371,13 @@
 </div>
 
 <h1 id="hp"></h1>
-<div class ="brand"><h1>______________________<br>______________________<br>_____HP______</h1></div>
+<div class ="brand"><h1>________________<br>__________________<br>_____HP______</h1></div>
 <div class="laptop">
 
 	
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h1.webp" alt="Girl in a jacket" width=480px height=480px>
+<img calss="vitthal img" src="h1.webp"width=100% height=300>
 <div class ="text-small"><p id="h1"><b>HP ElliteBook x360 1030 G3 Touch Screen</b></p></div>
 <div class ="btni"><button type="button" onclick='document.getElementById("h1").innerHTML = "Touch Screen Gorilla Glass Protection <br>Full Hd IPS +PSR Anti-Glare Display<br>Metal Body Natural Silver Color<br>Intal core i5 8 gen<16 GB DDR 4 RAM<br>256 GB NVME SSD<br>Intel UHD 620 Graphics<br>Fingerprint Sensor<br>Backlite keyword <br>4 g Sim Crd Support <br>Light And Slim<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -351,7 +385,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h2.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h2.webp" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="h2"><b>HP Pavilion x360 Convertible</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h2").innerHTML = "HP Pavilion x360 Convertible<br>x360 Touch Screen display<br>Intal Core i5 10 gen <br>16 GB RAm <br>256 GB SSD<br>4 GB Intal iris Graphis Card<br>Fingerprint Sensor<br>Backlite keyword<br><Fast Charging<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -359,7 +393,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h3.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h3.webp" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="h3"><b>HP 14s-dy2507TU</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h3").innerHTML = "HP 14s<br> Intel Core i3-11 gen<br> 8GB RAM/256GB SSD<br> 14 inch<br> Micro-Edge<br> Anti-Glare display<br> FHD Laptop<br>Alexa Built-in/Win 11<br>Intel UHD Graphics/Dual Speakers<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -367,7 +401,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h4.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h4.webp" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="h4"><b>HP Pavilion 14-dv2014TU</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h4").innerHTML = "HP Pavilion<br> 10th Gen Intel Core i5<br> 16GB RAM/512GB SSD <br>14 inch(35.6cm) IPS Micro-Edge FHD display<br>Intel Iris Xe Graphics<br>Windos 11<br>Alexa Built-in<br>Backlit keyword<br> Natural Silver Color			<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -375,7 +409,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h5.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h5.webp" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="h5"><b>HP lightBook 840 G4 Touch Screen</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h5").innerHTML = "Hp LightBook 840 G4 Touch Screen<br>Intal Core i5 7 gen<br>Touch Screen HD display<br>8 GB DDR4 RAM<br>Backlit keyword<br>Fingerprint Screen<br>Type C Port<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -383,7 +417,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h6.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h6.webp" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="h6"><b>HP ElliteBook 820 G3 12.5 inch</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h6").innerHTML = "HP ElliteBook 820 G3 12.5 inch<br>Intal Core i5 6 gen<br>8 GB DDR4 RAM<br>256 GB SSD<br>Backlit keyword<br> Type C Port<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -391,7 +425,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="h7.webp" alt="Girl in a jacket" width=480px height=480px>
+<img src="h7.webp" alt="Girl in a jacket" w width=100% height=300>
 <div class ="text-small"><p id="h7"><b>HP ElliteBook 840 G3 Touch Screen 14 inch</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("h7").innerHTML = "HP ElliteBook 840  G3 Touch Screen <br>Intal Core i5 6 gen<br>8 GB DDR4 RAM<br>256 GB SSD<br>Intal 4GB Graphics Card<br>New Addapter New Battry<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -399,12 +433,12 @@
 
 </div>
 
-<div class ="brand"><h1 id="lenove">______________________<br>______________________<br>_____LENOVE_____</h1></div>
+<div class ="brand"><h1 id="lenove">________________<br>________________<br>_____LENOVE_____</h1></div>
 <div class="laptop">
 		
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="l1.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="l1.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="l1"><b>Lenovo IdeaPad 3 </b></p></div>
 <div class ="btni"><button type="button" onclick='document.getElementById("l1").innerHTML = "Lenovo IdeaPad 3 <br>11th Gen Intel Core i3<br> 15.6 FHD Thin & Light Laptop<br>(8GB/512GB SSD<br>Windows 11 <br>2Yr Warranty<br>Platinum Grey<br>1.7Kg<br>), 81X800N2IN<br>"'>Click For More Informaction</button><br><br>
 </div>	
@@ -412,7 +446,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="l2.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="l2.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="l2"><b>Lenovo IdeaPad Flex 5</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("l2").innerHTML = "Lenovo IdeaPad Flex 5<br>AMD Ryzen 5 5500U <br>14 inch WUXGA IPS 2-in-1 Convertible Touchscreen Display<br> 16GBR am 512GB SDD<br>Win11/Office 2021<br>Backlit Keyword Finger print sencer<br>Storm Grey/1.55Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -420,7 +454,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="l3.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="l3.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="l3"><b>Lenovo IdeaPad Slim 3 </b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("l3").innerHTML = "Lenovo IdeaPad Slim 3<br> Intel Core i5 12th Gen <br>15.6 FHD Display<br> Thin & Light Laptop <br>8GB RAM 512GB SSD<br>Windows 11/Office 2021<br>Backlit Keyword 2Yr Warranty<br>Arctic Grey<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -428,7 +462,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="l4.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="l4.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="l4"><b>Lenovo IdeaPad Slim 1 </b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("l4").innerHTML = "Lenovo IdeaPad Slim 1 <br>AMD Ryzen 3 3250U<br> 15.6  FHD Display<br>8GB RAM 512GB SSD<br>Win 11/Office 2021<br>2 Year Warranty/Alexa Built-in<br>Cloud Grey/1.6Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -436,7 +470,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="l5.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="l5.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="l5"><b>Lenovo IdeaPad Gaming 3</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("l5").innerHTML = "Lenovo IdeaPad Gaming 3 <br>AMD Ryzen 7 5800H<br> 15.6 FHD IPS Gaming Display<br>16GB RAM 512GB SSD<br>4GB NVIDIA RTX 3050<br>120Hz Refresh Rate<br> Win 11<br>Backlit Keyword <br>Shadow Black 2.25Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -444,12 +478,12 @@
 
 </div>
 
-<div class ="brand"><h1 id="mi">______________________<br>______________________<br>_____MI_____</h1></div>
+<div class ="brand"><h1 id="mi">_________________<br>________________<br>_____MI_____</h1></div>
 <div class="laptop">
 		
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="m1.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="m1.webp" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="m1"><b>Xiaomi Notebook Pro 120G </b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("m1").innerHTML = "Xiaomi Notebook Pro 120G <br>12th Gen Intel i5-12450H<br> Thin & Light<br>16GB LPDDR5 RAM 512GB SSD<br>Nvidia MX550 Graphic<br>14 inch  2.5K Resolution/120Hz Display<br>Thunderbolt 4/FP Sensor/1.5Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -457,7 +491,7 @@
 		   
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="m2.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="m2.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="m2"><b>Xiaomi Mi Notebook Pro Max</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("m2").innerHTML = "Xiaomi Mi Notebook Pro Max <br>11th Gen Intel Core i5-11320H <br>Thin & Light <br>16GB RAM 512GB SSD <br>Iris Xe Graphics<br>14 inch QHD+ Display 2.5K Resolution<br>Thunderbolt 4<br> Fingerprint Sensor/1.4 Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -465,7 +499,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="m3.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="m3.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="m3"><b>Mi Notebook Pro</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("m3").innerHTML = "Mi Notebook Pro<br>14 inch QHD+ IPS Anti-Glare Display <br>Intel Core I5-11300H 11th Gen <br>Thin & Light Laptop <br>16GB RAM 512GB SSD <br>Iris Xe Graphics <br>Backlit Keyboard/FP Sensor/1.4 Kg<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -474,7 +508,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="m4.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="m4.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="m5"><b>MI Notebook Horizon Edition 14 </b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("m5").innerHTML = "MI Notebook Horizon Edition 14 <br>Intel Core i7-10510U 10th Gen<br> Thin and Light Laptop <br>8GB RAM 512GB SSD <br> Nvidia MX350 2GB Graphics<br>Grey 1.35Kg <br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -482,7 +516,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="m5.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="m5.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="m4"><b>Mi Notebook 14 ic</b></p></div>
 <div class ="btni"><button type="button" onclick='document.getElementById("m4").innerHTML = "Mi Notebook 14 ic<br>Intal Core i5 10 gen<br>8GB RAM 512GB SSD <br>Thin And Light<br>14 inch FHD Display<br>UHD 620 Graphics<br><br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -491,12 +525,12 @@
 </div>
        
 
-<div class ="brand"><h1 id="acer">______________________<br>______________________<br>_____ACER_____</h1></div>
+<div class ="brand"><h1 id="acer">_________________<br>_______________<br>_____ACER_____</h1></div>
 <div class="laptop">
 		
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="a1.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="a1.jpg" alt="Girl in a jacket" width=100% height=300>
 <div class ="text-small"><p id="1"><b>Acer Aspire Vero AV15</b></p></div>
 <div class ="btni"><button type="button" onclick='document.getElementById("4").innerHTML = "Acer Aspire Vero AV15<br> 15.6 FHD IPS Display <br> 11th Gen Intel Core i5-1155G7 <br> 16GB DDR4 RAM 512GB SSD <br> Wi-Fi 6 | PCR Materials <br> Fingerprint Reader | MS Office	<br>"'>Click For More Informaction</button><br><br>
 </div>	
@@ -504,7 +538,7 @@
 	
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="a2.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="a2.jpg" alt="Girl in a jacket" w width=100% height=300>
 <div class ="text-small"><p id="2"><b>Acer Aspire 5 Gaming Laptop</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("5").innerHTML = "Acer Aspire 5 Gaming Laptop<br> Intel Core i5 12th gen (12-Cores) Processor<br> 16 GB RAM 512 GB SSD <br>4GB Graphics NVIDIA GeForce RTX 2050 <br>15.6 inch Full HD Display<br> Steel Gray | 1.8 Kg <br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -512,7 +546,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="a3.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="a3.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="3"><b>Acer Predator Helios 300 Gaming</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("6").innerHTML = "Acer Predator Helios 300 Gaming Laptop <br>Intel Core i9 11th Gen Processor <br>16 GB RAM 1TB SSD <br> NVIDIA RTX 3060 Graphics card<br>165Hz 15.6 inches QHD IPS Display<br> 2.3 kgs<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -520,12 +554,12 @@
 </div>
        
 
-<div class ="brand"><h1 id="i3">______________________<br>______________________<br>_____I3_____</h1></div>
+<div class ="brand"><h1 id="i3">____________________<br>_________________<br>_____I3_____</h1></div>
 <div class="laptop">
 		
 	<div class="box">
 		<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-		<img src="l1.jpg" alt="Girl in a jacket" width=480px height=480px>
+		<img src="l1.jpg" alt="Girl in a jacket" width=100% height=300>
 		<div class ="text-small"><p id="31"><b>Lenovo IdeaPad 3 </b></p></div>
 		<div class ="btni"><button type="button" onclick='document.getElementById("31").innerHTML = "Lenovo IdeaPad 3 <br>11th Gen Intel Core i3<br> 15.6 FHD Thin & Light Laptop<br>(8GB/512GB SSD<br>Windows 11 <br>2Yr Warranty<br>Platinum Grey<br>1.7Kg<br>), 81X800N2IN<br>"'>Click For More Informaction</button><br><br>
 		</div>	
@@ -533,7 +567,7 @@
 
 <div class="box">
 <button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-<img src="img1.jpg" alt="Girl in a jacket" width=480px height=480px>
+<img src="img1.jpg" alt="Girl in a jacket"  width=100% height=300>
 <div class ="text-small"><p id="3"><b>Dell Latitude e7270 12.5 Ultrabook.</b></p></div>
 <div class="btni"><button type="button" onclick='document.getElementById("6").innerHTML = "Dell Latitude e7270 12.5 Ultrabook<br>intal core i5 6 gen<br>8GB DDR4 RAM<br>256 GB SSD m.dot 2<br>New Battry New Adeptor<br>Very slim<br>"'>Click For More Informaction</button><br><br>
 </div>
@@ -541,7 +575,7 @@
 
 <div class="box">
 	<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-	<img src="d5.jpg" alt="Girl in a jacket" width=480px height=480px>
+	<img src="d5.jpg" alt="Girl in a jacket"  width=100% height=300>
 	<div class ="text-small"><p id="33"><b>Dell Vostro 3420</b></p></div>
 	<div class="btni"><button type="button" onclick='document.getElementById("33").innerHTML = "Dell Vostro 3420 <br>12th Gen Intel Core i3-1215U<br> 8GB RAM 512GB SSD<br> 14.0  FHD WVA AG 250 nitsDisplay<br> Windows 11 +<br>"'>Click For More Informaction</button><br><br>
 	</div>
@@ -550,12 +584,12 @@
 </div>
        
 
-<div class ="brand"><h1 id="i5">______________________<br>______________________<br>_____I5_____</h1></div>
+<div class ="brand"><h1 id="i5">___________________<br>________________<br>_____I5_____</h1></div>
 <div class="laptop">
 		
 	<div class="box">
 		<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-		<img src="m3.jpg" alt="Girl in a jacket" width=480px height=480px>
+		<img src="m3.jpg" alt="Girl in a jacket"  width=100% height=300>
 		<div class ="text-small"><p id="51"><b>Mi Notebook Pro</b></p></div>
 		<div class="btni"><button type="button" onclick='document.getElementById("51").innerHTML = "Mi Notebook Pro<br>14 inch QHD+ IPS Anti-Glare Display <br>Intel Core I5-11300H 11th Gen <br>Thin & Light Laptop <br>16GB RAM 512GB SSD <br>Iris Xe Graphics <br>Backlit Keyboard/FP Sensor/1.4 Kg<br>"'>Click For More Informaction</button><br><br>
 		</div>
@@ -563,7 +597,7 @@
 
 		<div class="box">
 			<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-			<img src="l3.jpg" alt="Girl in a jacket" width=480px height=480px>
+			<img src="l3.jpg" alt="Girl in a jacket" width=100% height=300>
 			<div class ="text-small"><p id="52"><b>Lenovo IdeaPad Slim 3 </b></p></div>
 			<div class="btni"><button type="button" onclick='document.getElementById("52").innerHTML = "Lenovo IdeaPad Slim 3<br> Intel Core i5 12th Gen <br>15.6 FHD Display<br> Thin & Light Laptop <br>8GB RAM 512GB SSD<br>Windows 11/Office 2021<br>Backlit Keyword 2Yr Warranty<br>Arctic Grey<br>"'>Click For More Informaction</button><br><br>
 			</div>
@@ -571,7 +605,7 @@
 
 			<div class="box">
 				<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-				<img src="h4.webp" alt="Girl in a jacket" width=480px height=480px>
+				<img src="h4.webp" alt="Girl in a jacket" width=100% height=300>
 				<div class ="text-small"><p id="53"><b>HP Pavilion 14-dv2014TU</b></p></div>
 				<div class="btni"><button type="button" onclick='document.getElementById("53").innerHTML = "HP Pavilion<br> 10th Gen Intel Core i5<br> 16GB RAM/512GB SSD <br>14 inch(35.6cm) IPS Micro-Edge FHD display<br>Intel Iris Xe Graphics<br>Windos 11<br>Alexa Built-in<br>Backlit keyword<br> Natural Silver Color			<br>"'>Click For More Informaction</button><br><br>
 				</div>
@@ -580,12 +614,12 @@
 </div>
        
 
-<div class ="brand"><h1 id="i7">______________________<br>______________________<br>_____I7_____</h1></div>
+<div class ="brand"><h1 id="i7">__________________<br>________________<br>_____I7_____</h1></div>
 <div class="laptop">
 		
 	<div class="box">
 		<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-		<img src="d1.avif" alt="Girl in a jacket" width=480px height=480px>
+		<img src="d1.avif" alt="Girl in a jacket"  width=100% height=300>
 		<div class ="text-small"><p id="71"><b>Dell 2in1 Inspiron 7420</b></p></div>
 		<div class ="btni"><button type="button" onclick='document.getElementById("71").innerHTML = "Dell 2in1 Inspiron 7420 <br> Intel i7-1255U<br> 16GB RAM 512GB SSD <br> Win 11+MSO 21<br> NVIDIA MX550 (2GB GDDR6)<br> 14.0 inch  FHD+ WVA Touch 250 nits Display<br> Dell Active Pen <br> Platinum Silver <br>"'>Click For More Informaction</button><br><br>
 		</div>
@@ -593,7 +627,7 @@
 
 		<div class="box">
 			<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-			<img src="h5.webp" alt="Girl in a jacket" width=480px height=480px>
+			<img src="h5.webp" alt="Girl in a jacket" width=100% height=300>
 			<div class ="text-small"><p id="72"><b>HP lightBook 840 G4 Touch Screen</b></p></div>
 			<div class="btni"><button type="button" onclick='document.getElementById("72").innerHTML = "Hp LightBook 840 G4 Touch Screen<br>Intal Core i5 7 gen<br>Touch Screen HD display<br>8 GB DDR4 RAM<br>Backlit keyword<br>Fingerprint Screen<br>Type C Port<br>"'>Click For More Informaction</button><br><br>
 			</div>
@@ -601,7 +635,7 @@
 
 			<div class="box">
 				<button onclick="document.getElementById('myImage').src='img2.jpg'"></button>
-				<img src="m4.jpg" alt="Girl in a jacket" width=480px height=480px>
+				<img src="m4.jpg" alt="Girl in a jacket"  width=100% height=300>
 				<div class ="text-small"><p id="73"><b>MI Notebook Horizon Edition 14 </b></p></div>
 				<div class="btni"><button type="button" onclick='document.getElementById("73").innerHTML = "MI Notebook Horizon Edition 14 <br>Intel Core i7-10510U 10th Gen<br> Thin and Light Laptop <br>8GB RAM 512GB SSD <br> Nvidia MX350 2GB Graphics<br>Grey 1.35Kg <br>"'>Click For More Informaction</button><br><br>
 				</div>
@@ -612,30 +646,30 @@
 
 <div class ="contact"><h1 id="contact"><br>CONTACT US</h1><br></div>
 <p class="text-small">
-Vitthal Computers And Online Service Supa<br>
-Aditya R. Memane  call:-8999897474/7888125682<br>
-Rushikesh R. Memane  Call:- 8600278181 <br>
-Email ID:- memaneaditya884@gmail.com
-<br><br><b>>
-Vitthal Computers And Online Service Supa</b> <br>
-Supa,Tal. Parner  Dist. A.Nager<br> 
-Maharashtra – 414302. <br> 
-</p>
-       
-
-
+	Vitthal Computers And Online Service Supa<br>
+	Aditya R. Memane  call:-8999897474/7888125682<br>
+	Rushikesh R. Memane  Call:- 8600278181 <br>
+	Email ID:- memaneaditya884@gmail.com
+	<br><br><b>>
+	Vitthal Computers And Online Service Supa</b> <br>
+	Supa,Tal. Parner  Dist. A.Nager<br> 
+	Maharashtra – 414302. <br> 
+	</p>
+		   
+	
+	
 </p>
        
 
 </section>
 
  <script src="resp.js"></script>
-	
-<footer class="background">
-		<p class="text-footer">
-			Design by,<br>Mahesh Shivaji Memane,<br>8010337933<br>
 
-		</p>
+ <footer class="background">
+	<p class="text-footer">
+		Design by,<br>Mahesh Shivaji Memane,<br>8010337933<br>
+
+	</p>
 </footer>
 
 </body>
